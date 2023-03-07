@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moje media społecznościowe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">O mnie</a></li>
+        <li><a href="#social-media">Media społecznościowe</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <h1>Witaj na mojej stronie!</h1>
+      <p>Tutaj znajdziesz wszystkie moje media społecznościowe oraz formularz do wysyłania pytań.</p>
+    </section>
+    <section id="about">
+      <h2>O mnie</h2>
+      <img src="https://via.placeholder.com/150" alt="Moje zdjęcie">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin mauris dolor, vel commodo ex varius in. Integer ac tincidunt eros. Aliquam consequat iaculis libero, eu dignissim odio bibendum sed. Nam vitae nunc id massa congue dignissim nec a ante. Duis tincidunt malesuada ligula, sit amet tristique neque ultrices id.</p>
+    </section>
+    <section id="social-media">
+      <h2>Moje media społecznościowe</h2>
+      <ul>
+        <li><a href="https://www.facebook.com/mojprofil" target="_blank">Facebook</a></li>
+        <li><a href="https://www.twitter.com/mojprofil" target="_blank">Twitter</a></li>
+        <li><a href="https://www.instagram.com/mojprofil" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/mojprofil" target="_blank">YouTube</a></li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <form action="mailto:techobikibler@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="surname">Nazwisko:</label>
+        <input type="text" id="surname" name="surname" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Pytanie:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Wyślij</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 - Wszelkie prawa zastrzeżone</p>
+  </footer>
+</body>
+</html>

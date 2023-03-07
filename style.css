@@ -1,0 +1,165 @@
+/* Resetowanie styli */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Globalne style */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f8f8f8;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Style dla nagłówka */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Style dla sekcji hero */
+#hero {
+  background-color: #007bff;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+/* Style dla sekcji about */
+#about {
+  padding: 80px;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#about img {
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+#about p {
+  font-size: 18px;
+}
+
+/* Style dla sekcji social-media */
+#social-media {
+  background-color: #fff;
+  padding: 80px;
+  text-align: center;
+}
+
+#social-media h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#social-media ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#social-media li {
+  margin: 0 20px;
+}
+
+#social-media a {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  line-height: 100px;
+  font-size: 24px;
+}
+
+/* Style dla sekcji kontakt */
+#contact {
+  padding: 80px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#contact input,
+#contact textarea {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+#contact button {
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Style dla stopki */
+footer {
+  background-color: #fff;
+  text-align: center;
+  padding:
+}
