@@ -1,165 +1,184 @@
 /* Resetowanie styli */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-/* Globalne style */
-body {
+  {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  }
+  
+  /* Globalne style */
+  
+  body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  background-color: #313131;
-}
-
-a {
+  background-color: #1f1f1f;
+  color: #fff;
+  }
+  
+  a {
   color: #007bff;
   text-decoration: none;
-}
-
-ul {
+  }
+  
+  ul {
   list-style: none;
-}
-
-/* Style dla nagłówka */
-header {
-  background-color: #fff;
+  }
+  
+  /* Style dla nagłówka */
+  
+  header {
+  background-color: #313131;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-nav ul {
+  }
+  
+  nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
-}
-
-nav li {
+  }
+  
+  nav li {
   margin: 0 10px;
-}
-
-nav a {
+  }
+  
+  nav a {
   font-weight: bold;
   font-size: 18px;
-}
-
-/* Style dla sekcji hero */
-#hero {
-  background-color: #007bff;
+  color: #fff;
+  }
+  
+  /* Style dla sekcji hero */
+  
+  #hero {
+  background-color: #1a1a1a;
   color: #fff;
   padding: 100px 0;
   text-align: center;
-}
-
-#hero h1 {
+  }
+  
+  #hero h1 {
   font-size: 48px;
   margin-bottom: 20px;
-}
-
-#hero p {
+  }
+  
+  #hero p {
   font-size: 24px;
   margin-bottom: 40px;
-}
-
-/* Style dla sekcji about */
-#about {
+  }
+  
+  /* Style dla sekcji about */
+  
+  #about {
   padding: 80px;
   text-align: center;
-}
-
-#about h2 {
+  background-color: #313131;
+  }
+  
+  #about h2 {
   font-size: 36px;
   margin-bottom: 20px;
-}
-
-#about img {
+  color: #fff;
+  }
+  
+  #about img {
   border-radius: 50%;
   margin-bottom: 40px;
-}
-
-#about p {
+  }
+  
+  #about p {
   font-size: 18px;
-}
-
-/* Style dla sekcji social-media */
-#social-media {
-  background-color: #fff;
+  color: #fff;
+  }
+  
+  /* Style dla sekcji social-media */
+  
+  #social-media {
+  background-color: #1a1a1a;
   padding: 80px;
   text-align: center;
-}
-
-#social-media h2 {
+  }
+  
+  #social-media h2 {
   font-size: 36px;
   margin-bottom: 40px;
-}
-
-#social-media ul {
+  color: #fff;
+  }
+  
+  #social-media ul {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-}
-
-#social-media li {
-  margin: 0 20px;
-}
-
-#social-media a {
+  }
+  
+  #social-media li {
+  margin: 0 17px;
+  }
+  
+  #social-media a {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   background-color: #007bff;
   color: #fff;
   line-height: 100px;
   font-size: 24px;
-}
-
-/* Style dla sekcji kontakt */
-#contact {
+  }
+  
+  /* Style dla sekcji kontakt */
+  
+  #contact {
   padding: 80px;
   text-align: center;
-}
-
-#contact h2 {
+  background-color: #313131;
+  }
+  
+  #contact h2 {
   font-size: 36px;
   margin-bottom: 20px;
-}
-
-#contact form {
+  color: #fff;
+  }
+  
+  #contact form {
   display: flex;
   flex-direction: column;
   max-width: 600px;
   margin: 0 auto;
-}
-
-#contact label {
+  }
+  
+  #contact label {
   font-size: 18px;
   margin-bottom: 10px;
-}
-
-#contact input,
-#contact textarea {
+  color: #fff;
+  }
+  
+  #contact input,
+  #contact textarea {
   border: 2px solid #ccc;
   border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 20px;
-  font-size: 18px;
-}
-
-#contact button {
-  border: none;
-  border-radius: 5px;
-  background-color: #007bff;
+  background-color: #0071eb;
   color: #fff;
   font-size: 24px;
   padding: 10px 20px;
   cursor: pointer;
-}
+  }
+  
+  /* Style dla stopki */
+  
+  footer {
+    background-color: #fff;
+    text-align: center;
+    padding:
+  }
 
-/* Style dla stopki */
-footer {
-  background-color: #fff;
-  text-align: center;
-  padding:
-}
+  button {
+    border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #0071eb;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
+  }
